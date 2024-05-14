@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Example Checkout izipay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://sandbox-checkout.izipay.pe/payments/v1/js/index.js"></script>
+    <!--<script src="sdk.js"></script>-->
+  </head>
+  <body id="root">
+    
+    <div class="checkout-container">
+      <header>
+        <img src="https://www.costadelsolperu.com/wp-content/uploads/2022/12/logo-costa-color1.svg" alt="">    </header>
+      
+      <div class="right-column">
+        <section class="purchase-summary flex-column">
+          <h2>Detalles</h2>
+          <p>
+            La garantía consiste en una pre-aprobación de tu tarjeta y no ejecuta ningún pago al momento de realizarse la reserva. El monto de la garantía solamente será ejecutado en caso de que no honres tu reserva (es decir, de que no asistas a la misma) o de que no logres cancelar tu reserva con al menos 24 horas de anticipación.
+
+
+En caso de dudas, sugerencias o de necesitar más información, envíanos un mensaje a contacto@mesa247.pe que tendremos el placer de atender tu consulta.
+          </p>
+          <form action="">
+            <button id="btnPayNow" class="buttonPay" type="button" disabled>
+              loading...
+            </button>
+          </form>
+        </section>
+        
+      </div>
+    </div>
+    <script type="module" src="/src/js/pay.js"></script>
+    <link rel="stylesheet" href="/src/css/styles.css" />
+  </body>
+</html>
